@@ -29,7 +29,7 @@ param(
 
 
 #definiowanie klucza api 
-$apiKey = "c0fc81f751e1b2de6437f94ca97d9463f2ae822d7995be5ee4e9eb4455def039"
+$apiKey = "api_key"
 
 #wysylanie hashu do bazy wirustotal
 function get{
