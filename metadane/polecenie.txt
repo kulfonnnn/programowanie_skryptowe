@@ -1,0 +1,29 @@
+1. Napisz skrypt, który wyszukuje informacje geolokalizacyjne z pliku.
+2. Napisz skrypt, który usuwa metadane ze wskazanego pliku
+Dotatkowe:
+### Treść zadania
+
+Napisz skrypt Bash, który:
+
+1. Pyta użytkownika o:
+    - katalog z plikami,
+    - dane serwera FTP (adres, login, hasło).
+2. Dla każdego pliku w katalogu:
+    - Wyświetla aktualne pole w metadanych `Description` (lub informuje, że brak).
+    - Pyta, czy użytkownik chce zmienić to pole (`tak/nie`).
+    - Jeśli `tak`:
+        - Pobiera nową wartość pola `Description`.
+        - Edytuje plik, ustawiając `Description` na tę wartość.
+        - Generuje nową nazwę pliku wg schematu:
+            
+            ```
+            <losowe_słowo_z_tekstu>_<oryginalna_nazwa>
+            ```
+            
+            gdzie słowa pochodzą z tekstu:
+            
+            > "W Bashu skrypt płynie jak rzeka wartka w PowerShellu magia każda linijka twarda Pętle tańczą w rytm zmienne śpiewają funkcje jak czary co świat nam odmieniają Logika gęsta jak las pełen zwrotów debug i test to nasze powroty Wiersze kodu płyną jak rym w poezji każdy skrypt to klucz do cyfrowej kreacji Gdy problem się zbliża nie ma co marudzić bo w skryptowym świecie potrafimy czarować i budzić"
+            > 
+        - Wysyła zmodyfikowany plik na podany serwer FTP.
+        - Usuwa lokalny plik tymczasowy.
+    - Jeśli `nie` — wysyła plik bez zmian i przechodzi do następnego pliku.
