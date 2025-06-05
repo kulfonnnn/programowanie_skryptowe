@@ -1,0 +1,62 @@
+Część Praktyczna
+1. Zmienne
+Napisz skrypt wymagający podania długości i wysokości trójkąta w
+argumencie, obliczający pole powierzchni trójkąta. Wynik wyświetl na
+ekranie.
+2. Instrukcje warunkowe
+Napisz skrypt, który zapyta użytkownika o liczbę i sprawdzi, czy jest większa
+od 10. Jeśli tak, wyświetli komunikat "Liczba jest większa od 10", w
+przeciwnym razie wyświetli komunikat "Liczba jest mniejsza od 10".
+3. Operatory logiczne
+Napisz skrypt, który poprosi użytkownika o podanie nazwy użytkownika i
+hasła, a następnie sprawdzi, czy podane dane są poprawne (np. nazwa
+użytkownika to "admin" i hasło to "password"). Zastosuj maskowanie
+wprowadzanego hasła.
+4. Pętle
+Napisz skrypt generujący 10 adresów IP za pomocą pętli, które będą
+różniły się czwartym oktetem rosnąco w adresie 192.168.1.X
+5. Funkcje
+Utwórz skrypt wyświetlający informacje o systemie: Aktualna data, Wersja
+systemu, Użytkownik, AdresIP.
+Każda informacja powinna znajdować się w osobnej funkcji. Użyj jednej
+zmiennej z nazwą komputera w każdej funkcji.
+Przykład: „Aktualna data na (Nazwa komputera) to X”
+6. Zadania połączone
+Utwórz plik CSV o nazwie input_file.csv z zawartością:
+Component;GenerateReport
+Computername;True
+Manufacturer;True
+Model;True
+SerialNumber;True
+CpuName;False
+RAM;True
+Napisz skrypt PowerShell, który będzie:
+- odczytywać zawartość pliku input_file.csv
+- wykonywać iterację po wszystkich wierszach w pliku input_file.csv i zwróci
+informacje o komputerze/laptopie tylko wtedy, gdy w danym wierszu opcja
+GenerateReport ma wartość True.
+Dane wyjściowe powinny wyglądać następująco:
+Computername: ABWI45774RZ
+Manufacturer: LENOVO
+Model: ThinkPad T123
+SerialNumber: M4564XDCG54DSA
+RAM: 32 GB
+Zauważ, że CpuName nie jest wyświetlane, ponieważ GenerateReport jest
+ustawione na False w tym wierszu. Spróbuj zmienić wartości True|False w
+kolumnie GenerateReport pliku input_file.csv, wykonaj skrypt ponownie.
+Komenda Get-ComputerInfo jest Twoim przyjacielem
+
+
+Zadanie dodatkowe
+Zapisz dane wyjściowe do pliku. Nazwa pliku powinna być jak w przykładzie:
+"ComputerReport_YYYYMMdd-HHmmss.txt", gdzie:
+RRRR - bieżący rok
+MM - bieżący miesiąc
+dd - bieżący dzień
+HH - bieżąca godzina
+mm - bieżąca minuta
+ss - bieżąca sekunda
+Skrypt powinien wyświetlić komunikat w konsoli:
+Raport został zapisany w pliku: <pełna ścieżka do pliku>.
+
+^zadania opracowała: Karolina Pfajfer
