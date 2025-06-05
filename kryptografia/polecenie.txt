@@ -1,0 +1,6 @@
+2. Napisz skrypt, który zaszyfruje plik tekstowy np. algorytmem
+AES. (dodaj link do swojego repozytorium oraz zrzuty ekranu z
+potwierdzeniem poprawnego działania skryptu)
+3. Napisz skrypt, który podpisze cyfrowo plik. (dodaj link do
+swojego repozytorium oraz zrzuty ekranu z potwierdzeniem
+poprawnego działania skryptu)

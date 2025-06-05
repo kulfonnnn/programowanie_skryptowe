@@ -1,0 +1,7 @@
+1. Napisz skrypt, który pobierze aktualny kurs podanej na wejściu waluty
+oraz wyświetli kurs z ostatnich 5 dni. Następnie obliczy różnicę między
+każdym dniem.
+2. Napisz skrypt, który wyszuka artykuły z portali informacyjnych na
+podany temat.
+3. Napisz skrypt, który wyświetli podstawowe dane i listę otwartych
+portów dla podanego adresu IP przez API Shodan.

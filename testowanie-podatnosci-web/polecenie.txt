@@ -1,0 +1,35 @@
+1. Napisz skrypt w Pythonie, który będzie testował aplikację webową pod
+kątem podatności na ataki SQL Injection. Skrypt powinien:
+• Wykonywać zapytania HTTP do wybranej strony internetowej.
+• Wstawiać złośliwe payloady w parametrach zapytań (GET/POST).
+• Analizować odpowiedzi serwera w celu wykrycia potencjalnych podatności.
+2. Napisz skrypt w Pythonie, który będzie testował aplikację webową pod
+kątem podatności na ataki XSS.
+Skrypt powinien:
+• Wysyłać zapytania z różnymi złośliwymi skryptami JavaScript jako
+parametrami.
+• Sprawdzać odpowiedzi serwera i zawartość HTML pod kątem wstrzykniętego
+skryptu.
+3. Napisz skrypt w Pythonie, który będzie testował formularz logowania pod
+kątem podatności na atak brute-force. Skrypt powinien:
+• Wykonywać wielokrotne próby logowania z różnymi kombinacjami loginów i
+haseł.
+• Sprawdzać odpowiedzi serwera, aby określić, czy udało się zalogować.
+4. Napisz skrypt w Pythonie, który będzie skanował wybrane porty na
+określonym serwerze w celu wykrycia otwartych portów.
+Skrypt powinien:
+• Przyjmować adres IP serwera oraz zakres portów do skanowania.
+• Wykonywać próby połączenia z każdym portem w podanym zakresie.
+• Raportować, które porty są otwarte.
+Zadanie dodatkowe
+
+Zadanie dodatkowe:
+Napisz skrypt w Pythonie, który będzie testował aplikację webową pod
+kątem podatności na ataki Directory Traversal.
+Skrypt powinien:
+• Wysyłać zapytania HTTP z różnymi payloadami Directory Traversal.
+• Analizować odpowiedzi serwera w celu wykrycia nieautoryzowanego
+dostępu do plików.
+
+Zadania opracowała Karolina Pfajfer.
+
