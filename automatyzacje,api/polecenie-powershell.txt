@@ -1,0 +1,14 @@
+1. Napisz skrypt PowerShell, który monitoruje określony folder i
+automatycznie przenosi nowo dodane pliki .txt do innej lokalizacji.
+a) Jeżeli folder docelowy nie istnieje, skrypt musi go utworzyć.
+b) Skrypt powinien działać ciągle, aż do jego ręcznego wyłączenia.
+
+
+2. Napisz skrypt w PowerShell który:
+a) Obliczy sumę kontrolną pliku (MD5 lub SHA256).
+b) Wyśle zapytanie do API VirusTotal
+c) Zinterpretuje odpowiedź API i wyświetli informację, czy plik jest
+bezpieczny, czy nie.
+Sprawdzić, czy wyniki są zgodne z oczekiwaniami - pobrać plik EICAR oraz
+utworzyć nowy plik testowy. Każdy etap skryptu powinien być opatrzony
+komentarzem.

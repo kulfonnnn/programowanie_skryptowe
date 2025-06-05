@@ -1,0 +1,38 @@
+1. Napisz skrypt w bash, który pomoże administratorowi i przyśpieszy
+tworzenie nowego komputera w organizacji. Podziel zadania na
+odpowiednie funkcje:
+a) Sprawdzenie aktualizacji systemu i ich instalacja
+b) Instalacja klienta pocztowego np. Thunderbird
+c) Dodanie nowego użytkownika
+d) Utworzenie katalogów dla nowego pracownika (Documents, Pictures,
+Videos)
+e) Wyświetlenie informacji o wersji systemu, adresu ip, adresu mac
+W funkcji głównej skrypt powinien zapytać o nazwę użytkownika i przekazać
+tą informację do właściwej funkcji.
+Każdy etap skryptu powinien być opatrzony komentarzem.
+2. Załóż konto na VirusTotal i napisz automatyzację w bashu sprawdzającą
+reputację plików, która:
+a) Obliczy sumę kontrolną wskazanego pliku (MD5 lub SHA256).
+b) Wyśle zapytanie do API VirusTotal za pomocą polecenia curl.
+c) Zinterpretuje odpowiedź API i wyświetli informację, czy plik jest
+bezpieczny, czy nie.
+Sprawdź, czy wyniki są zgodne z oczekiwaniami - pobierz plik EICAR oraz
+utwórz nowy plik testowy.
+Każdy etap skryptu powinien być opatrzony komentarzem.
+
+Zadanie dodatkowe:
+Napisz skrypt bash, który automatyzuje pobieranie danych o pogodzie z
+serwisu API i generuje raport w formacie PDF.
+Wymagania:
+• Skrypt musi pobierać dane o pogodzie dla określonego miasta
+(przykładowo z serwisu API OpenWeatherMap -
+https://openweathermap.org/).
+• Skrypt musi generować raport w formacie PDF, zawierający
+następujące informacje:
+o Nazwa miasta
+o Aktualna temperatura i wilgotność
+o Prognoza pogody na 5 dni
+• Skrypt musi być uruchamiany z wiersza poleceń i przyjmować jako
+argument nazwę miasta.
+• Skrypt musi być dobrze udokumentowany, z komentarzami
+wyjaśniającymi jego działanie.

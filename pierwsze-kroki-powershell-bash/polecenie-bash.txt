@@ -1,0 +1,32 @@
+Część Praktyczna
+1. Zmienne
+a) Napisz skrypt wymagający podania imienia i wieku w argumencie,
+przypisz do zmiennych, a następnie wyświetl te zmienne w formie:
+„Imie: , Wiek: ”
+b) Utwórz skrypt, który pobiera od użytkownika długość i szerokość
+prostokąta. Oblicza pole powierzchni prostokąta i wyświetli wynik na
+ekranie.
+2. Instrukcje warunkowe
+a) Napisz skrypt który zapyta o nazwę użytkownika i sprawdzi czy dany
+użytkownik to admin. Jeżeli tak zwróć odpowiedź „Konto admina”,
+jeżeli nie zwróć „To nie jest konto admina”
+b) Napisz skrypt, który zapyta o nazwę pliku, a następnie sprawdzi czy plik
+istnieje, czy jest pusty, czy jest katalogiem i wypisze odpowiedź na
+każde pytanie w osobnej linii.
+3. Operatory logiczne
+a) Napisz skrypt, który zapyta o liczbę, a następnie przy pomocy
+operatora AND sprawdzi czy liczba jest dodatnia i czy jest nieparzysta,
+a na koniec wyświetli wynik
+b) Napisz skrypt, który poprosi użytkownika o podanie nazwy użytkownika i
+hasła, a następnie sprawdzi, czy podane dane są poprawne (np.
+nazwa użytkownika to "admin" i hasło to "password").
+4. Pętle
+a) Napisz skrypt generujący 10 adresów IP za pomocą pętli for, które
+będą różniły się czwartym oktetem rosnąco w adresie 192.168.1.X
+b) Napisz ten sam skrypt za pomocą pętli while
+5. Funkcje
+a) Utwórz skrypt wyświetlający informacje o systemie: Aktualna data,
+Wersja linuxa, Użytkownik, AdresIP.
+Każda informacja powinna znajdować się w osobnej funkcji. Użyj jednej
+zmiennej z nazwą komputera w każdej funkcji.
+Przykład: „Aktualna data na (Nazwa komputera) to X”
