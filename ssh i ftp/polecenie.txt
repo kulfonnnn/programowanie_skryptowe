@@ -1,0 +1,24 @@
+1. Napisz skrypt, który automatycznie loguje się na zdalny serwer przy
+użyciu SSH, wykonuje kilka poleceń (np. listowanie plików, procesów) i
+zapisuje wynik do pliku lokalnego.
+2. Napisz skrypt, który monitoruje logi połączeń SSH na serwerze i
+generuje raport, gdy wykryje nieprawidłowe lub podejrzane
+aktywności, na przykład nieudane logowania
+3. Napisz skrypt, który wykonuje kopię zapasową określonych plików na
+lokalnym komputerze i przesyła je na zdalny serwer FTP w określonym
+katalogu. Dodaj funkcję archiwizacji i kompresji przed wysłaniem
+plików.
+
+Dodatkowe:
+1. Automatyczne pobieranie plików przez FTP:
+
+Skrypt Bash, który automatycznie pobiera określone pliki z serwera FTP i
+
+zapisuje je lokalnie. Możesz dodać funkcję planowania zadań, aby skrypt
+
+uruchamiał się regularnie.
+3. Automatyczne usuwanie starych plików na serwerze FTP:
+Skrypt Bash, który regularnie sprawdza określony katalog na serwerze FTP i
+usuwa pliki starsze niż określona liczba dni. To może pomóc w utrzymaniu
+porządku na serwerze i ograniczeniu ilości niepotrzebnych plików.
+
