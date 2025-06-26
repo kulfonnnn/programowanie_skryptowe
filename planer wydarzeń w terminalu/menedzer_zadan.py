@@ -67,7 +67,7 @@ def usun_zadanie(lista_zadan):
 def eksport_do_api(lista_zadan):
     for zadanie in lista_zadan: #dla kazdego zadania
         r = requests.post("https://jsonplaceholder.typicode.com/posts", json=zadanie) #wyslij je przez API
-        print(f"Wyeksportowano ({zadanie['tytul']}): {r.status_code}")
+        print(f"Wyeksportowano ({zadanie['tytul']})")
 
 def import_z_api():
     r = requests.get("https://jsonplaceholder.typicode.com/posts") #znowu testowe API
