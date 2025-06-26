@@ -1,0 +1,19 @@
+Zadanie dodatkowe - Menedżer zadań z obsługą API i harmonogramem
+Stwórz aplikację skryptową w Pythonie, która zarządza zadaniami użytkownika (lista rzeczy do zrobienia), umożliwia ich harmonogramowanie, przechowywanie w pliku oraz synchronizację z zewnętrznym API (np. do synchronizacji z kalendarzem online lub zewnętrzną listą zadań).
+Dodawanie, usuwanie i edytowanie zadań
+Każde zadanie ma: tytuł, opis, datę i godzinę, priorytet (niski/średni/wysoki).
+Możliwość edycji i usuwania zadań.
+Harmonogramowanie zadań
+Zadania z datą w przeszłości są oznaczane jako „przeterminowane”.
+Zadania mogą być zaplanowane cyklicznie (np. co poniedziałek).
+Zapis i odczyt z pliku (np. JSON)
+Program zapisuje i odczytuje dane z pliku tasks.json.
+Synchronizacja z API
+Użyj darmowego API (np. JSONPlaceholder, Google Calendar API, lub symulowanego API lokalnie).
+Program potrafi eksportować zadania do API i importować je z API (np. za pomocą requests).
+Filtrowanie i sortowanie
+Użytkownik może filtrować zadania według daty, priorytetu lub statusu.
+Zadania mogą być sortowane wg daty lub priorytetu.
+Interfejs użytkownika (CLI)
+Program działa w terminalu (tekstowe menu).
+Użytkownik może wybierać opcje z listy, wpisywać dane itd.
